@@ -1,8 +1,8 @@
 #ifndef WIFICREDENTIALS_H
 #define WIFICREDENTIALS_H
 //  Parametry lokalnej sieci WWIFI
-const char* ssid = "RagNet";
-const char* password =  "azgard666";
+const char* ssid = "xxxx";
+const char* password =  "xxxx";
 // spobuje ustawic statyczne IP
 IPAddress local_IP(192, 168, 1, 46);
 IPAddress gateway(192, 168, 1 ,1);
@@ -12,7 +12,7 @@ IPAddress secondaryDNS(8, 8, 4, 4);
 
 //  Dane uwierzytelnienia kanalu na serwerze ThingSpeak
 unsigned long myChannelNumber = 2117004;
-const char * myWriteAPIKey = "0BXP5ZX4MN0KMSGH";
+const char * myWriteAPIKey = "xxxx";
 
 //  Adres lokalnego serwera WWW na maszynie stacjonarnej
 String ServerAddress = "192.168.1.55/smartesp";
